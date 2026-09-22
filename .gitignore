@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Model checkpoints / trained weights
+models/
+outputs/
+
+# Large datasets
+data/*.parquet
+data/*.csv
+*.tsv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Secrets
+.env
+.env.*
